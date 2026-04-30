@@ -34,18 +34,7 @@ pnpm build
 
 The site is automatically deployed to GitHub Pages via GitHub Actions on push to `main`. The custom domain `deepcomet.space` is configured via the `CNAME` file.
 
-### Custom Domain Setup
-
-To configure the custom domain, add the following DNS records:
-
-| Type  | Name | Value                    |
-| ----- | ---- | ------------------------ |
-| A     | @    | 185.199.108.153          |
-| A     | @    | 185.199.109.153          |
-| A     | @    | 185.199.110.153          |
-| A     | @    | 185.199.111.153          |
-| CNAME | www  | DeepcometAI.github.io    |
-
+---
 ## License
 
 See [LICENSE](./LICENSE) for details.
